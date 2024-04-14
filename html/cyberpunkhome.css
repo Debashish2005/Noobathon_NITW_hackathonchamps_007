@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow|Tomorrow:400,700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    background-image: url(img/videoframe_8741.png);
+    background-size: cover;
+    position: relative;
+    background-repeat: no-repeat;
+    height: 100vh;
+    position: relative;
+}
+
+nav{
+    max-width:95vw;
+    justify-content:space-between;
+    display: flex;
+    align-items: center;
+    top:0;
+}
+
+nav img{
+    border-radius: 20px;
+}
+nav button{
+    padding: 10px;
+    width: 12vw;
+    height: 8vh;
+    font-size: x-large;
+    font-weight: 500;
+    font-family:Tomorrow , sans-serif;
+    background-color:rgba(0, 0, 0, .6);
+    color: whitesmoke;
+    border: 2px solid var(--black-color);
+    margin: -2.2px;
+}
+
+nav button:hover{
+    background-color: rgb(244, 244, 64);
+    color: black;
+    cursor: pointer;
+}
+
+.dropbtn {
+  background-color: rgba(0, 0, 0, .6);
+  color: white;
+  padding: 16px;
+  font-size: x-large;
+  border: none;
+  cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 0, 0, .6);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-family: Tomorrow,sans-serif;
+}
+
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+  background-color: rgb(244, 244, 64);
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: rgb(244, 244, 64);
+}
+
+
+.buy{
+    background-color: red;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    margin:8vw;
+    margin-bottom:-1vw ;
+    font-size: 40px;
+    font-weight: 900;
+    width: 35vw;
+    font-family: Tomorrow , sans-serif;
+    line-height: 90%;
+    justify-content: center;
+    align-items: center;
+
+}
+.content span{
+    padding: 4vh;
+}
+.click{
+    margin: 40px;
+    margin-left: 10vw;
+}
+.click button{
+    padding: 15px;
+    background-color: rgb(244, 244, 38);
+    margin:10px;
+    width: 14vw;
+    font-weight: 700;
+    font-size: 17px;
+}
+.click button:hover{
+    background-color: rgb(210, 210, 2);
+}
+.xbox{
+    margin-top: 4vh;
+    margin-left: 14vw;
+}
+footer{
+    background-color: black;
+    padding: 5vh;
+}
+
+.foot span{
+
+    margin:40px;
+
+}
+.Follow{
+    font-size: x-large;
+    font-weight: 500;
+    color: yellow;
+}
+.foot span img{
+    color: white;
+    height: 50px;
+    width: 50px;
+}
+.Terms{
+    color:yellow;
+    margin: 10px;
+    padding: 20px;
+}
+.Terms span{
+    margin: 10px;
+    font-size: x-large;
+    font-weight: 500;
+}
+.copyright{
+    color: white;
+    font-size: large;
+    max-width: 30vw;
+    margin-left: 30vw;
+    margin-top: 3vw;
+}

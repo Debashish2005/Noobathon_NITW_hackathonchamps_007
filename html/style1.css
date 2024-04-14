@@ -1,0 +1,31 @@
+#k {
+    height: 300px;
+    width: 100px;
+    border: 2px solid black;
+    background-color: gray; /* You can change the background color of the traffic light container */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+#l, #m, #n {
+    height: 80px; /* Adjust the size of the lights */
+    width: 80px; /* Adjust the size of the lights */
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+}
+
+#l {
+    background-color: red; /* Set the background color of the red light */
+}
+
+#m {
+    background-color: yellow; /* Set the background color of the yellow light */
+}
+
+#n {
+    background-color: green; /* Set the background color of the green light */
+}
